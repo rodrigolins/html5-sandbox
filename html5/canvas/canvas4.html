@@ -3,25 +3,27 @@
 <head>
 <title>Title of the document</title>
 <script type="text/javascript">
-//<!--
-window.addEventListener('load', function () {
-  // Get the canvas element.
-  var elem = document.getElementById('myCanvas');
-  if (!elem || !elem.getContext) {
-    return;
-  }
+	window.addEventListener('load', function ()
+	{
+  		// Get the canvas element.
+  		var elem = document.getElementById('myCanvas');
+  		if (!elem || !elem.getContext)
+  		{
+    		return;
+  		}
 
-  // Get the canvas 2d context.
-  var context = elem.getContext('2d');
-  if (!context) {
-    return;
-  }
+  		// Get the canvas 2d context.
+  		var context = elem.getContext('2d');
+  		if (!context)
+  		{
+    		return;
+  		}
 
-  // Now you are done! Let's draw a blue rectangle.
-  context.fillStyle = '#00f';
-  context.fillRect(0, 0, 150, 100);
-}, false);
- //-->
+  		// Now you are done! Let's draw a blue rectangle.
+  		context.fillStyle = '#00f';
+  		context.fillRect(0, 0, 150, 100);
+		}, false
+	);
 </script>
 </head>
 
